@@ -1,0 +1,1 @@
+(function(){isis=function(){},isis.load=function(){}})();
