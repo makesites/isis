@@ -1,1 +1,1 @@
-(function(){isis=function(){},isis.load=function(){}})();
+(function(i,n){var o=function(){};o.load=function(){},i&&(i.isis=o)})(this.window,this.document);
