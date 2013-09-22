@@ -1,6 +1,6 @@
 # Isis
 
-Web application GUI framework 
+Web application GUI framework
 
 I see you baby...
 
@@ -18,57 +18,58 @@ The framework is heavily relying on the [Backbone.js](http://backbonejs.org) ext
 * [Common.js](http://github.com/commons/common.js)
 * [Common Grid](http://github.com/commons/grid)
 
-## Install 
+## Install
 
-...
+Using bower:
+```
+bower install isis
+```
 
 ## Usage
 
 After including the core lib you may initialize it with a set of options:
 ```
 isis({
-  ui: {
-    slider: {}
-  }, 
-  input: {
-    touch: {}
-  }
+	ui: {
+		slider: {}
+	},
+	input: {
+		touch: {}
+	}
 });
 ```
-Any of the options may be parameterized with a series of sub-options. For example in the above object: 
+Any of the options may be parameterized with a series of sub-options. For example in the above object:
 ```
 ...
-  slider: {
-    direction: vertical
-    transition: ".5 easeout"
-    arrows: false
-  }
+	slider: {
+		direction: vertical
+		transition: ".5 easeout"
+		arrows: false
+	}
 ...
 ```
 
 ## Options
 
-Here is the main groups of options you can pass during initialization 
+Here is the main groups of options you can pass during initialization
 
 ### ui
 
-Setting the variant UI components you'll be requesting. Usually these are a 1-1 match with the equivalent [Backbone UI](http://github.com/backbone-ui) extension. 
+Setting the variant UI components you'll be requesting. Usually these are a 1-1 match with the equivalent [Backbone UI](http://github.com/backbone-ui) extension.
 
 ### input
 
-Defining the input methods our app will be monitoring. Again, these correlate with the relevant [Backbone Input](http://github.com/backbone-input) extensions... 
+Defining the input methods our app will be monitoring. Again, these correlate with the relevant [Backbone Input](http://github.com/backbone-input) extensions...
 
 ### grid
 
 A generator of the (per-layout) grid system, used to guide the Common Grid setup.
 
 
-## Credits 
+## Credits
 
 Created by [Lyndel Thomas](http://twitter.com/ryndel)
 
 Distributed through [Makesites.org](http://makesites.org)
 
 Dual-licensed under the MPL & AGPL
-
-
