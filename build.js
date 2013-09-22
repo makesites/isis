@@ -26,6 +26,7 @@ concat({
 		'lib/_start.js',
 		'lib/defaults.js',
 		'lib/constructor.js',
+		'lib/dependencies.js',
 		'lib/_end.js'
 	],
 	dest : 'build/isis.js'
