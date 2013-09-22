@@ -1,6 +1,6 @@
 {
-    "name": "isis",
-    "version": "0.1.0",
+	"name": "isis",
+	"version": "0.1.0",
 	"author": "makesites",
 	"homepage": "https://github.com/makesites/isis",
 	"repository": {
@@ -13,13 +13,13 @@
 		"url": "http://www.mozilla.org/MPL/2.0/"
 	}
 	],
-    "engine" : {
-        "node" : "0.8.x"
-    }, 
-    "devDependencies" : {
-        "commander" : "1.x",
+	"engine" : {
+		"node" : "0.8.x"
+	},
+	"devDependencies" : {
+		"commander" : "1.x",
 		"jshint" : "1.x",
-        "uglify-js" : "2.x",
+		"uglify-js" : "2.x",
 		"hbs" : "1.x"
-    }
+	}
 }
